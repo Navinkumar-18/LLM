@@ -43,6 +43,11 @@ INITIAL_DOCUMENTS = [
     "Retrieval Augmented Generation retrieves relevant documents before generating answers.",
     "FAISS is a library developed by Facebook AI for efficient similarity search.",
     "Embeddings convert text into numerical vectors for semantic comparison.",
+    "Retrieval-Augmented Generation (RAG) is a technique that combines retrieval of relevant documents with generation of answers using a language model.",
+    "FAISS is a library for efficient similarity search and clustering of dense vectors, often used in RAG systems to index and retrieve document embeddings.",
+    "Wikipedia is a free online encyclopedia that can be used as a source of knowledge for RAG systems, especially when the initial dataset lacks information on a topic.",
+    "Langchain is a framework for building applications with language models, often used to create RAG systems by connecting LLMs with various data sources and tools.",
+
 ]
 INITIAL_DOC_IDS = [f"doc_{i}" for i in range(len(INITIAL_DOCUMENTS))]
 
